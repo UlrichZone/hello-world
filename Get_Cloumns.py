@@ -2,7 +2,7 @@
 # -*- coding: <utf-8> -*-
 
 info = []
-raw_text = open( 'acc.txt', 'r' )
+raw_text = open( 'prf.txt', 'r' )
 
 for line in raw_text.readlines():
     cut = line.strip()

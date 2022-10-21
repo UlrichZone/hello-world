@@ -1,10 +1,3 @@
-creat_time = Column(DateTime, nullable=True, comment="creat_time")
-creat_usrnbr = Column(BigInteger, nullable=True, comment="creat_usrnbr")
-updat_time = Column(DateTime, nullable=True, comment="updat_time")
-red_code = Column(Decimal(255), nullable=True, comment="red_code")
-protection = Column(Date, nullable=True, comment="protection")
-ptyid = Column(String(80), nullable=True, comment="ptyid")
-
 prfnbr = Column(Integer, primarykey=True, comment="prfnbr")
 creat_time = Column(DateTime, nullable=True, comment="creat_time")
 creat_usrnbr = Column(Integer, nullable=True, comment="creat_usrnbr")
