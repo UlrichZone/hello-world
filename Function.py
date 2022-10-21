@@ -7,6 +7,6 @@ def function():
     count = 10
     print(10)
 
-print(function())
+function()
 print(count)
 
